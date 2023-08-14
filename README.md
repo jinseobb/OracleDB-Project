@@ -1,4 +1,4 @@
-> # Spring Project - BookBBang
+> # OracleDB Project - Center Management System
 스프링을 활용하여 제작한 도서 통합 서비스 프로그램  
 <br/>
 

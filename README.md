@@ -1,28 +1,26 @@
 > # OracleDB Project - Center Management System
-스프링을 활용하여 제작한 도서 통합 서비스 프로그램  
+Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 프로젝트 입니다. 
 <br/>
 
 > ## 🖥 프로젝트 소개
-도서 구매 사이트가 아닌 커뮤니티, 중고거래 등 다양한 기능을 활용 할 수 있는 도서 통합 서비스 플랫폼.  
+교육 센터를 운영함에 있어 필요한 제반 기능들을 하나의 프로그램으로 관리하기 위해 진행한 프로젝트
 
-개개인의 취향에 맞는 도서 추천, 서평을 통해 해당 도서에 대한 세부 정보 습득, 중고거래를 통해 합리적인 도서 구매 등 도서에 관한 여러 서비스를 제공합니다.  
+교육센터 제반 기능의 통합적 관리, 네트워크 활성화, 계정별 기능 이용의 편의성을 증진시켜 관리를 더욱 쉽게 할 수 있도록 구현하였습니다.  
 <br/>
 
 
 > ## 📅 개발기간
-* 23.06.19일 ~ 23.07.12일  
+* 23.03.27일 ~ 23.04.07일  
 <br/>
   
 > ## ⚙ 개발 환경
-* `Java 8`
-* `JDK 1.8.0`
-- **IDE** : STS3
-- **Database** : Oracle DB(11xe), MyBatis  
+- **IDE** : SQL Developer
+- **Database** : Oracle DB(11xe)  
+* `EXERD`
+  
 
-### ✔️Frond-end
-<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/Css-1572B6?style=for-the-badge&logo=Css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
 ### ✔️Back-end
-<img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+<img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
 </br>
 
 </br>

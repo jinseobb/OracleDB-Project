@@ -51,7 +51,7 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 #### *모든 상품의 추가, 삭제 방법은 동일합니다.
 <br/>
 
-> ### 대출 상품 관리 페이지
+> ### 교사 계정 관리 페이지
 #### - 목록
 <img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/a50edd29-4be0-46cb-a7f8-842e8e04c2a2"/>
 
@@ -69,18 +69,29 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 
 <br/>
 
-> ### 적금 상품 목록 페이지
+> ### 수료 날짜 지정 페이지
 
-#### - 목록
-<img width="350px" src="https://github.com/jinseobb/Banking-project/assets/131458472/8a20cbb3-0a6f-41d6-90b4-7294f1da81c6"/>
+#### - 코드
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/6dac18e0-cf1a-4890-b5b6-d7e0dba8e568"/>
 <br/>
 
-#### - 상세보기
-<img width="550px"  src="https://github.com/jinseobb/Banking-project/assets/131458472/10c519c0-7727-4feb-afd1-12ecb8d2fd9c"/>
+#### - 수료날짜 지정 전 결과
+<img width="350px"  src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/ed26b04e-3f96-435a-a995-b7b997cbdab5"/>  
+<br/>  
+
+#### - 수료날짜 지정 중
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/1e4c8f66-34bb-44af-b562-6428116f38d9"/>
+<br/>  
+
+#### - 수료날짜 지정 후 결과
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/e22df3ef-e2bf-439b-8ab5-3c718a2952dc"/>
+<br/>
   
 ### 📋 구현 기능  
-* 현재 서비스 중인 적금 상품의 목록을 조회 할 수 있는 페이지입니다.
-* 원하는 상품의 번호를 입력하면 해당 상품의 상세 정보를 확인 할 수 있습니다. 
+* 한 과정이 끝난 후 수료 날짜를 지정하는 기능입니다.
+* 관리자가 update문으로 과정번호를 입력하여 수료 상태를 ‘졸업’으로 바꿀 때, 트리거를 이용해 해당 학생이 들은 과정의 종료일을 학생의 수료일로 지정합니다.
+
+
 
 <br/>
 

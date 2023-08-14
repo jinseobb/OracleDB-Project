@@ -193,28 +193,28 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 * 과목 번호, 교육생 번호에 따른 출결 정보를 출력합니다.
   
 
-> ### 교육생 취업률 조회 페이지
+> ### 교육생 일별 출결 조회
 
 #### - 코드
-<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/407bb00a-9ca8-47c9-a8f3-2cc804a02fb9"/>  
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/59548450-1fc9-45e9-8830-c70ea8d5ae8e"/>    
+<br/>  
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/67d11afd-08dd-4c67-8768-babeac933700"/>    
 <br/>  
 
-#### - 취업률 조회 호출 코드
-<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/d8cd4313-c7ab-4931-81a1-5ac3c17d7059"/>  
+#### - 일별 출결 호출 코드
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/421225fd-629a-4f6a-b7a7-d9f0553d38eb)"/>  
 <br/>  
 
-#### - 취업률 조회
-<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/a4eca4d2-f8d4-47ff-9e9d-b1cc2c9c2b8a"/>  
+#### - 일별 출결 결과
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/d007e31f-0bbf-4052-a402-9b603e30a31f"/>  
 <br/>
 
   
 ### 📋 구현 기능  
-* 교사가 각 과정별 교육생들의 취업률을 조회할 수 있는 기능을 프로시저로 구현했습니다.
-* 선언부에서 과정번호를 매개변수로 선언하고, 취업률을 지역변수로 선언 한 뒤
-  실행부에서 교육생의 수강여부가 = 'Y'인 교육생의 개수를 구한뒤 이를 토대로 취업률을 계산하는 코드를 실행하게끔
-  프로시저를 구현했습니다.
-* 호출코드에서 조회하고 싶은 과정 번호를 입력하면 해당 과정의 취업률이 출력됩니다.
-
+* 교육생이 본인의 입/퇴실 시간을 조회할 수 있는 기능을 프로시저로 구현했습니다.
+* 선언부에서 날짜와 교육생번호를 매개변수로 선언한 후
+ 실행부에서 커서를 통해 매개변수로 입력받은 날짜 및 교육생번호와 일치하는 항목을 찾도록 구현했습니다.
+* 호출코드에서 조회하고자 하는 날짜와 교육생 본인의 번호를 입력하면 해당 날짜의 입/퇴실 시간이 출력됩니다.
 
 <br/>
 

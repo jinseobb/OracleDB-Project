@@ -26,7 +26,7 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 </br>
 
 > ## :keyboard:DB 설계
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/54098fe7-ae84-428c-aa36-276f7569bff2" width="550" height="400"/> 
+<img width="1500px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/7d4567ba-d2ba-4304-9122-0924e3193399"/> 
 
 </br></br>
 

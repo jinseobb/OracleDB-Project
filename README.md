@@ -135,13 +135,31 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 #### *모든 상품의 조회 및 추천 방법은 동일합니다.
 <br/>
 
-> ### 가입된 상품 조회 페이지
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/6e4aa67c-8ee6-46c6-bc76-ab7aa3ae0c57"/>
+> ### 교육생 출결 조회 페이지
+
+#### - 코드
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/6f8d8229-2359-4a51-9fc6-20d756f5df19"/>
+<br/>
+
+#### - 교육생 출결 목록
+<img width="350px"  src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/bccc0b3f-f877-4e2c-b4d0-3671034821b3"/>  
+<br/>  
+
+#### - 프로시저 호출
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/bc7c23e6-eeec-408b-ba13-15c0904477bd"/>
+<br/>  
+
+#### - 과목번호, 교육생 번호에 따른 출결 코드
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/118cb137-4380-4264-961d-9ba948018d56"/>
+<br/>  
+
+#### - 출결 최종 결과
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/737aec6f-0d03-4e63-9467-4862e6af1e00"/>
+<br/>
   
 ### 📋 구현 기능  
-* 고객 계정으로 로그인 하면, 로그인 한 고객 본인이 가입한 상품의 목록을 조회 할 수 있습니다.
-
-<br/>
+* 과목 번호, 교육생 번호에 따른 출결 정보를 출력합니다.
+* 
 
 > ### 카드 
 

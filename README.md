@@ -52,20 +52,35 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 <br/>
 
 > ### 교사 계정 관리 페이지
-#### - 목록
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/a50edd29-4be0-46cb-a7f8-842e8e04c2a2"/>
 
-#### - 추가
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/5e97a5c5-8145-4df0-9aa6-e70ebd625345"/>
+#### - 코드
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/088059ab-9576-42a9-b5ba-38033ceeb81d"/>
+<br/>
 
-#### - 삭제
-<img width="350px" src="https://github.com/jinseobb/Banking-project/assets/131458472/125c639d-816b-4bf8-b70c-41a6cd203439"/>
+#### - 교사 계정 목록
+<img width="350px"  src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/ed26b04e-3f96-435a-a995-b7b997cbdab5"/>  
+<br/>  
 
+#### - 프로시저 호출
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/62adf45d-c455-4add-a0ee-4dbccd049f16"/>
+<br/>  
+
+#### - 교사 계정 업데이트 후 목록
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/1d8e535e-1e11-4f62-bea1-be23eeb1f7ca"/>
+<br/>  
+
+#### - 유효성 검사 실패에 따른 업데이트 실패
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/69f144d0-dd6f-4a8c-a5aa-56f5d710b029"/>
+<br/>
   
 ### 📋 구현 기능  
-* 현재 서비스 중인 대출 상품의 목록을 조회 할 수 있는 페이지입니다.
-* 원하는 대출 상품을 추가 할 수 있습니다.
-* 원하는 대출 상품을 삭제 할 수 있습니다.
+* 관리자가 교사 계정 정보를 추가하는 기능입니다.
+* 교사의 아이디, 주민등록번호, 연락처, 이름을 올바르게 입력하면 저장 함수의 반환값인 ‘입력되었습니다.’ 문구가 출력되고 데이터가 삽입됩니다.
+* 만약 자료형이 틀리는 등의 오류가 있을 경우 예외처리를 통해 ‘입력에 실패하였습니다.’ 문구가 출력되고 데이터가 삽입되지 않습니다.
+  
+
+
+
 
 <br/>
 
@@ -75,7 +90,7 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 <img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/6dac18e0-cf1a-4890-b5b6-d7e0dba8e568"/>
 <br/>
 
-#### - 수료날짜 지정 전 결과
+#### - 수료날짜 지정 전 목록
 <img width="350px"  src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/ed26b04e-3f96-435a-a995-b7b997cbdab5"/>  
 <br/>  
 
@@ -83,7 +98,7 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 <img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/1e4c8f66-34bb-44af-b562-6428116f38d9"/>
 <br/>  
 
-#### - 수료날짜 지정 후 결과
+#### - 수료날짜 지정 후 목록
 <img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/e22df3ef-e2bf-439b-8ab5-3c718a2952dc"/>
 <br/>
   

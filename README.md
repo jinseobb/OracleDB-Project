@@ -2,6 +2,7 @@
 Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 프로젝트 입니다.   
 <br/>
 
+
 > ## 🖥 프로젝트 소개
 교육 센터를 운영함에 있어 필요한 제반 기능들을 하나의 프로그램으로 관리하기 위해 진행한 프로젝트
 
@@ -9,16 +10,17 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 <br/>
 
 
+
 > ## 📅 개발기간
-* 23.03.27일 ~ 23.04.07일  
+* 23.03.27일 ~ 23.04.07일 
 <br/>
   
 > ## ⚙ 개발 환경
 - **IDE** : SQL Developer
 - **Database** : Oracle DB(11xe)  
 * `EXERD`
-  
 
+  
 ### ✔️Back-end
 <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
 </br>
@@ -30,90 +32,137 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 
 </br></br>
 
-### 📌 주요 기능
-> 메인 화면
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/70d214e9-6bc9-43eb-a42a-0519c4eeeb43"/>
+
+### 📌 주요 기능  
+<br/>
+
+##  공통기능
+
+> ### 메인 화면
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/f664100c-d7fb-4a7d-b31e-336ff1192336"/>
   
-📋 구현 기능  
-* 메인 화면으로 신작, 베스트 셀러 등 분야별 대표 도서 목록이 출력됩니다.
+### 📋 구현 기능  
+* 메인 화면으로 관리자, 고객 중 원하는 계정으로 로그인 할 수 있는 페이지입니다.
 
 <br/>
 
-> 도서 목록 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/9b49544e-39a7-4b95-abe9-a46022979dd0"/>
+## 관리자
+#### 💡 관리자는 카드, 상품, 대출 중 원하는 상품을 선택 후 해당 상품의 목록 조회, 상세보기, 추가, 삭제가 가능합니다. 
+#### *모든 상품의 추가, 삭제 방법은 동일합니다.
+<br/>
+
+> ### 대출 상품 관리 페이지
+#### - 목록
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/a50edd29-4be0-46cb-a7f8-842e8e04c2a2"/>
+
+#### - 추가
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/5e97a5c5-8145-4df0-9aa6-e70ebd625345"/>
+
+#### - 삭제
+<img width="350px" src="https://github.com/jinseobb/Banking-project/assets/131458472/125c639d-816b-4bf8-b70c-41a6cd203439"/>
+
   
-📋 구현 기능  
-* 메인 페이지에서 도서 탭을 클릭시 도서 페이지로 이동, 메인 페이지에서는 책을 대분류, 소분류로 나눠 목록을 출력, 낮은 가격순, 높은 가격순, 출판날짜 등으로 정렬하여 조회가 가능합니다.
+### 📋 구현 기능  
+* 현재 서비스 중인 대출 상품의 목록을 조회 할 수 있는 페이지입니다.
+* 원하는 대출 상품을 추가 할 수 있습니다.
+* 원하는 대출 상품을 삭제 할 수 있습니다.
 
 <br/>
 
-> 도서 상세정보, 구매 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/9038c98c-d4ad-43a5-a2be-420f242c5ece"/>
+> ### 적금 상품 목록 페이지
+
+#### - 목록
+<img width="350px" src="https://github.com/jinseobb/Banking-project/assets/131458472/8a20cbb3-0a6f-41d6-90b4-7294f1da81c6"/>
+<br/>
+
+#### - 상세보기
+<img width="550px"  src="https://github.com/jinseobb/Banking-project/assets/131458472/10c519c0-7727-4feb-afd1-12ecb8d2fd9c"/>
   
-📋 구현 기능  
-* 선택한 도서의 상세 정보를 확인 할 수 있고, 장바구니에 넣기 또는 바로 주문이 가능합니다.
+### 📋 구현 기능  
+* 현재 서비스 중인 적금 상품의 목록을 조회 할 수 있는 페이지입니다.
+* 원하는 상품의 번호를 입력하면 해당 상품의 상세 정보를 확인 할 수 있습니다. 
 
 <br/>
 
-> 장바구니 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/a45acee6-f70d-489f-94a5-a6bcec1c0800"/>
+> ### 카드 상품 목록 페이지
+
+#### - 카드 종류 선택
+<img width="250px" src="https://github.com/jinseobb/Banking-project/assets/131458472/0be7e215-223e-405e-86de-d6e0671c32a0"/>  
+<br/>
+
+#### - 목록
+<img width="350px" src="https://github.com/jinseobb/Banking-project/assets/131458472/37d064e7-ab61-4563-bd4d-28cd00c7dd0b"/>  
+<br/>
+
+#### - 상세 보기
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/ea8c9472-7e06-4fa6-99b8-65dfbfc5618c"/>
+   
+### 📋 구현 기능  
+* 현재 서비스 중인 카드상품의 목록을 조회 할 수 있는 페이지 입니다.(신용카드, 체크카드 별로 조회 가능)
+* 원하는 상품의 번호를 입력하면 해당 상품의 상세 정보를 확인 할 수 있습니다.
   
-📋 구현 기능  
-* 구매 페이지에서 장바구니에 담기 버튼을 누르면 장바구니에 해당 도서 상품이 담깁니다.
-* 장바구니 상품 중 원하는 상품만 구매, 삭제가 가능합니다.
 
 <br/>
 
-> 주문 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/3a919ba6-d091-4524-9e44-c762d969e4de"/>
+## 고객
+#### 💡 고객 카드, 상품, 대출 중 원하는 상품을 선택 후 해당 상품 목록 조회 및 추천이 가능하고, 가입된 상품 조회가 가능합니다. 
+#### *모든 상품의 조회 및 추천 방법은 동일합니다.
+<br/>
+
+> ### 가입된 상품 조회 페이지
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/6e4aa67c-8ee6-46c6-bc76-ab7aa3ae0c57"/>
   
-📋 구현 기능  
-* ajax를 활용하여 원하는 배송지를 선택하면 실시간으로 배송지 정보가 변합니다.
-* ajax를 활용하여 실시간으로 쿠폰을 적용시켜 할인된 금액이 출력됩니다.
-* 카카오결제 api를 활용하여 카카오페이 결제가 가능합니다.
+### 📋 구현 기능  
+* 고객 계정으로 로그인 하면, 로그인 한 고객 본인이 가입한 상품의 목록을 조회 할 수 있습니다.
 
 <br/>
 
-> 커뮤니티 '북유럽'의 메인 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/dd19de8d-cb4d-418a-9ed1-9e3d10b05e17"/>
+> ### 카드 
+
+#### - 카드 추천 페이지
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/840d5920-0d66-4e79-a31e-f84bb502f700"/>
   
-📋 구현 기능  
-* 소비자들이 작성한 서평 중 이달의 서평 어워드에 선정된 서평 목록이 한눈에 보기 쉽도록 도서 표지가 출력됩니다.
+### 📋 구현 기능  
+* 고객이 본인의 소비 패턴에 맞는 새로운 카드(신용카드, 체크카드) 를 추천 받을 수 있는 페이지 입니.
+<br/>
+
+> ### 대출
+
+#### - 대출 추천 페이지
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/d928683f-1ab7-49bc-96ce-c18b298cdbf2"/>
+<br/>
+
+#### - 신용 대출 추천 페이지
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/c8146e90-ac1f-4e1f-925c-f92246eaf304"/>
+<br/>
+
+#### - 대출 계산기 페이지
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/be5df517-a270-4e89-9822-17c7e052c884"/>
+<br/> 
+ 
+### 📋 구현 기능  
+* 고객이 신용대출, 자동차 대출, 전 월세 반환보증 대출 중 가입하고 싶은 종류의 대출을 선택 후 추천 받을 수 있습니다.
+* 고객이 대출 계산기를 활용하여 본인이 받을 대출에 대한 사전 계산을 할 수 있습니다.
+
 
 <br/>
 
-> '북유럽'의 서평 목록 출력 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/de8a8ba5-5009-49ee-b924-3395ce3e0170"/>
-  
-📋 구현 기능  
-* 서평 목록 페이지에선 도서 표지만 출력되는것이 아닌 책의 기본 정보들모두 출력되어 서평에 대한 정보가 더욱 상세하게 출력됩니다.
+> ### 적금
 
-
+#### - 적금 추천 페이지
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/fd640a69-2dfd-4be8-914e-2f90767c8a3b"/>  
 <br/>
 
-> 매장별 위치 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/26d0b1fe-3505-4911-a8a3-f066d8c8358c"/>
-  
-📋 구현 기능  
-* 카카오맵 api를 활용하여 오프라인 매장의 위치가 지도에 출력합다.
-
-
+#### - 적금 계산기 페이지 (매일 일정 금액을 저축할 때)
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/38d1537b-3047-4102-b3e5-6e7fb51f8a07"/>  
 <br/>
 
-> 마이페이지 > 주문 내역 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/a7df850f-f8c2-477a-ae66-2443fd324fe1"/>
-  
-📋 구현 기능  
-* 주문 내역이 한 눈에 알아보기 쉽게 출력됩니다.
-* ajax를 활용하여 주문 취소 버튼을 클릭할 때 주문 접수 카운트가 줄어들고 취소 카운트가 늘어납니다.
-
+#### - 적금 계산기 페이지 (목표 금액을 만들 때)
+<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/de4c623b-f16c-4654-84d8-32e6afe6bc5b"/>  
 <br/>
 
-> 마이페이지 > 배송 주소록 페이지
-<img width="550px" src="https://github.com/jinseobb/BookBBang/assets/131458472/076c6401-4197-423a-b8f2-ed8e12c76757"/>
-  
-📋 구현 기능  
-* 주소 api를 활용하여 주소 등록을 더욱 편리하게 구현하였습니다.
-* ajax를 활용하여 실시간 배송지 CRUD가 가능합니다.
+### 📋 구현 기능  
+* 고객이 현재 이벤트 진행중인 적금 상품을 확인 할 수 있습니다
+* 고객이 적금 계산기를 활용하여 본인이 받을 적금에 대한 사전 계산을 원하는 목표 별로 계산 할 수 있습니다.
 
-<br/>
+

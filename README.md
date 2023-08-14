@@ -110,25 +110,6 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 
 <br/>
 
-> ### 카드 상품 목록 페이지
-
-#### - 카드 종류 선택
-<img width="250px" src="https://github.com/jinseobb/Banking-project/assets/131458472/0be7e215-223e-405e-86de-d6e0671c32a0"/>  
-<br/>
-
-#### - 목록
-<img width="350px" src="https://github.com/jinseobb/Banking-project/assets/131458472/37d064e7-ab61-4563-bd4d-28cd00c7dd0b"/>  
-<br/>
-
-#### - 상세 보기
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/ea8c9472-7e06-4fa6-99b8-65dfbfc5618c"/>
-   
-### 📋 구현 기능  
-* 현재 서비스 중인 카드상품의 목록을 조회 할 수 있는 페이지 입니다.(신용카드, 체크카드 별로 조회 가능)
-* 원하는 상품의 번호를 입력하면 해당 상품의 상세 정보를 확인 할 수 있습니다.
-  
-
-<br/>
 
 ## 교사
 #### 💡 고객 카드, 상품, 대출 중 원하는 상품을 선택 후 해당 상품 목록 조회 및 추천이 가능하고, 가입된 상품 조회가 가능합니다. 
@@ -184,45 +165,58 @@ Oracle DB와 sql developer를 활용해 진행한 교육센터 시스템 관리 
 * 호출코드에서 조회하고 싶은 과정 번호를 입력하면 해당 과정의 취업률이 출력됩니다.
 
 
+<br/>  
+
+## 교육생
+#### 💡 고객 카드, 상품, 대출 중 원하는 상품을 선택 후 해당 상품 목록 조회 및 추천이 가능하고, 가입된 상품 조회가 가능합니다. 
+#### *모든 상품의 조회 및 추천 방법은 동일합니다.
 <br/>
 
-> ### 대출
+> ### 교육생 로그인 페이지
 
-#### - 대출 추천 페이지
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/d928683f-1ab7-49bc-96ce-c18b298cdbf2"/>
+#### - 코드
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/e1de70a6-0788-4c61-a69b-b0d7fdb48f129"/>  
+<br/>
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/b402aaaa-de60-4ad1-9d56-8e49d6872358"/>
 <br/>
 
-#### - 신용 대출 추천 페이지
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/c8146e90-ac1f-4e1f-925c-f92246eaf304"/>
-<br/>
+#### - 로그인 호출 코드
+<img width="350px"  src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/cf82081a-e795-47a1-8f42-e20babefd018"/>  
+<br/>  
 
-#### - 대출 계산기 페이지
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/be5df517-a270-4e89-9822-17c7e052c884"/>
-<br/> 
- 
+#### - 마이페이지(로그인 완료)
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/c2338611-77ea-429f-852f-146f180edf4a)"/>
+<br/>  
+
+  
 ### 📋 구현 기능  
-* 고객이 신용대출, 자동차 대출, 전 월세 반환보증 대출 중 가입하고 싶은 종류의 대출을 선택 후 추천 받을 수 있습니다.
-* 고객이 대출 계산기를 활용하여 본인이 받을 대출에 대한 사전 계산을 할 수 있습니다.
+* 과목 번호, 교육생 번호에 따른 출결 정보를 출력합니다.
+  
 
+> ### 교육생 취업률 조회 페이지
 
+#### - 코드
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/407bb00a-9ca8-47c9-a8f3-2cc804a02fb9"/>  
+<br/>  
+
+#### - 취업률 조회 호출 코드
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/d8cd4313-c7ab-4931-81a1-5ac3c17d7059"/>  
+<br/>  
+
+#### - 취업률 조회
+<img width="350px" src="https://github.com/jinseobb/OracleDB-Project/assets/131458472/a4eca4d2-f8d4-47ff-9e9d-b1cc2c9c2b8a"/>  
 <br/>
 
-> ### 적금
-
-#### - 적금 추천 페이지
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/fd640a69-2dfd-4be8-914e-2f90767c8a3b"/>  
-<br/>
-
-#### - 적금 계산기 페이지 (매일 일정 금액을 저축할 때)
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/38d1537b-3047-4102-b3e5-6e7fb51f8a07"/>  
-<br/>
-
-#### - 적금 계산기 페이지 (목표 금액을 만들 때)
-<img width="550px" src="https://github.com/jinseobb/Banking-project/assets/131458472/de4c623b-f16c-4654-84d8-32e6afe6bc5b"/>  
-<br/>
-
+  
 ### 📋 구현 기능  
-* 고객이 현재 이벤트 진행중인 적금 상품을 확인 할 수 있습니다
-* 고객이 적금 계산기를 활용하여 본인이 받을 적금에 대한 사전 계산을 원하는 목표 별로 계산 할 수 있습니다.
+* 교사가 각 과정별 교육생들의 취업률을 조회할 수 있는 기능을 프로시저로 구현했습니다.
+* 선언부에서 과정번호를 매개변수로 선언하고, 취업률을 지역변수로 선언 한 뒤
+  실행부에서 교육생의 수강여부가 = 'Y'인 교육생의 개수를 구한뒤 이를 토대로 취업률을 계산하는 코드를 실행하게끔
+  프로시저를 구현했습니다.
+* 호출코드에서 조회하고 싶은 과정 번호를 입력하면 해당 과정의 취업률이 출력됩니다.
+
+
+<br/>
+
 
 
